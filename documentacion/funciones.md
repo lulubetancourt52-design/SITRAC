@@ -1,5 +1,3 @@
-
-
 \# Estado de las funciones del proyecto SITRAC
 
 
@@ -42,15 +40,47 @@ Estudiante encargado del desarrollo del proyecto.
 
 
 
+\## Pruebas realizadas
+
+
+
+Se ejecutaron seis pruebas de validación:
+
+
+
+\- CP-01: Rechazo de ciudades duplicadas.
+
+\- CP-02: Eliminación de pasajeros inexistentes.
+
+\- CP-03: Atención de cola vacía.
+
+\- CP-04: Rechazo de distancias negativas.
+
+\- CP-05: Eliminación de ciudades con conexiones.
+
+\- CP-06: Validación de entradas numéricas incorrectas.
+
+
+
+Las seis pruebas fueron superadas y sus capturas se encuentran en `documentacion/evidencias/`.
+
+
+
 \## Pendientes
 
-\- Completar las evidencias de las pruebas CP-01 a CP-06.
-
-\- Verificar el funcionamiento de cada módulo.
-
-\- Revisar y corregir los errores encontrados durante las pruebas.
-
-\- Mantener actualizado el repositorio de GitHub.
 
 
+\- Revisar y ampliar las pruebas de funcionamiento de los módulos.
+
+\- Continuar verificando el manejo de datos y archivos.
+
+\- Mantener actualizada la documentación y el repositorio de GitHub.
+
+
+
+\## Conclusión
+
+
+
+Los ocho módulos principales de SITRAC están implementados. Se realizaron pruebas de validación para comprobar el manejo de errores y el funcionamiento de las operaciones principales. El sistema también fue probado mediante compilación, ejecución, guardado y carga de información.
 
