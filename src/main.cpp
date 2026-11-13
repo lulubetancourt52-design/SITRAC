@@ -1281,7 +1281,7 @@ public: // Permite utilizar las funciones desde fuera de la clase.
                 siguienteCiudad = id + 1; // Actualiza el próximo ID disponible.
         }
 
-        int rutas; // Guarda la cantidad de rutas del archivo.
+        int rutas = 0; // Guarda la cantidad de rutas del archivo. Inicializa el contador para evitar valores indeterminados.
 
         if (correcto && (!(archivo >> rutas) || rutas < 0)) // Comprueba que la cantidad sea válida.
             correcto = false; // Marca que el archivo tiene un error.
@@ -1305,7 +1305,7 @@ public: // Permite utilizar las funciones desde fuera de la clase.
             agregarConexion(destino, origen, distancia); // Agrega la conexión de regreso.
         }
 
-        int pasajeros; // Guarda la cantidad de pasajeros.
+        int pasajeros = 0; // Guarda la cantidad de pasajeros. Inicializa el contador para evitar valores indeterminados.
 
         if (correcto && (!(archivo >> pasajeros) || pasajeros < 0)) // Comprueba la cantidad.
             correcto = false; // Marca un error si no es válida.
@@ -1346,7 +1346,7 @@ public: // Permite utilizar las funciones desde fuera de la clase.
                 siguientePasajero = id + 1; // Actualiza el próximo ID.
         }
 
-        int solicitudes; // Guarda la cantidad de solicitudes.
+        int solicitudes = 0; // Guarda la cantidad de solicitudes. Inicializa el contador para evitar valores indeterminados.
 
         if (correcto && (!(archivo >> solicitudes) || solicitudes < 0)) // Comprueba la cantidad.
             correcto = false; // Marca un error si no es válida.
@@ -1388,7 +1388,7 @@ public: // Permite utilizar las funciones desde fuera de la clase.
                 siguienteSolicitud = id + 1; // Actualiza el próximo ID.
         }
 
-        int viajes; // Guarda la cantidad de viajes del historial.
+        int viajes = 0; // Guarda la cantidad de viajes del historial. Inicializa el contador para evitar valores indeterminados.
 
         if (correcto && (!(archivo >> viajes) || viajes < 0)) // Comprueba la cantidad.
             correcto = false; // Marca un error si no es válida.
@@ -1888,3 +1888,4 @@ int main() // Es el punto donde comienza el programa.
 
     return 0; // Finaliza el programa correctamente.
 }
+   
